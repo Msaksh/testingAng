@@ -1,0 +1,58 @@
+.landing-page {
+    background-color: #000;
+    color: var(--textColor);
+    border: 1px solid white;
+}
+
+.fontWNormal {
+    font-weight: 400;
+}
+
+.right3Imgs {
+    width: 110px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 55px;
+}
+
+.btn3btns {
+    border: none;
+    padding: 8px 25px 10px 25px;
+    border-radius: 40px;
+    line-height: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    width: 170px;
+}
+
+.fundBtn {
+    background-color: var(--fund);
+    color: #fff;
+}
+
+.pcoketBtn {
+    background-color: var(--pocket-money);
+    color: #fff;
+}
+
+.breadBtn {
+    background-color: var(--bread-butter);
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .right3Imgs {
+        width: 70px;
+        height: 110px;
+        object-fit: cover;
+        border-radius: 55px;
+    }
+
+    .btn3btns {
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+
+}

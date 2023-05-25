@@ -1,0 +1,54 @@
+.fund-style {
+    color: var(--fund);
+}
+
+.edu-pera {
+    font-weight: bold;
+}
+
+.share {
+    background-color: var(--share);
+    color: white;
+    border: none;
+    /* height: 35px; */
+    width: 70px;
+    border-radius: 32px;
+}
+
+.input-box {
+    border: 3px solid #333333;
+    border-radius: 5px;
+    color: white;
+    background-color: #262626;
+    padding: 6px
+}
+
+.right-share {
+    /* margin-top: 10px; */
+    background-color: #0D0D0D;
+    border: 3px solid #333333;
+    border-radius: 15px;
+    color: white;
+}
+
+.child {
+    color: white;
+}
+
+.demand {
+    color: var(--fund);
+}
+
+.wallet {
+    background-color: rgb(89 89 89);
+    color: white;
+    border-radius: 15px;
+}
+
+.second-btn {
+    background-color: #C89800;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+}

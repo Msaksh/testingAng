@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --textColor: #a6a6a5;
+    --wowriorRed: #f69;
+    --fund: #c89800;
+    --pocket-money: #22a262;
+    --bread-butter: #09bbc9;
+}
+
+html {
+    background-color: #000;
+}
+
+p {
+    color: var(--textColor);
+}
+
+.wowriorRed {
+    color: var(--wowriorRed) !important;
+}
+
+.textColor {
+    color: var(--textColor) !important;
+}
+
+.container {
+    background-color: #000;
+    ;
+}
+
+.dark-mode {
+    background-color: #000;
+}
+
+.pageHeadingH1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.letterSpacing04 {
+    letter-spacing: 0.4px;
+}
+
+
+.startWowriorJourney {
+    font-size: 18px;
+    cursor: pointer;
+    color: #9595c3 !important;
+}
+
+.arwSize {
+    top: 10px;
+    width: 399px;
+    left: 47%;
+    transform: rotate(353deg);
+}
+
+@media (max-width: 768px) {
+    .arwSize {
+        display: none;
+    }
+
+    .paddingTop100 {
+        padding: 100px 0px;
+    }
+}

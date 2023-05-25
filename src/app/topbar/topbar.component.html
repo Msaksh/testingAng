@@ -1,0 +1,53 @@
+<div class="dark-mode">
+  <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page-->
+  <header class="navbar navbar-expand-lg navbar-stuck">
+    <div class="container">
+      <a class="navbar-brand text-white pe-sm-3 navLogo" routerLink="">Wowr<span class="wowriorRed">i</span>or</a>
+      <a class="btn btn-light subscribeBtn px-3 py-1 btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex"
+        href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#subscribeModal">Subscribe</a>
+      <button class="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span
+          class="navbar-toggler-icon"></span></button>
+      <nav class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
+
+          <li class="nav-item mx-md-3"><a class="nav-link textColor" href="javascript:void(0)">How It
+              Works</a></li>
+          <li class="nav-item mx-md-3"><a class="nav-link textColor" href="javascript:void(0)">About</a></li>
+          <li class="nav-item mx-md-3"><a class="nav-link textColor" href="javascript:void(0)">Contact
+              Us</a>
+          </li>
+        </ul>
+        <div class="d-sm-none p-3 mt-n3"><a class="btn btn-light subscribeBtn w-100  mb-1" data-bs-toggle=" modal"
+            data-bs-target="#subscribeModal"><i class=" ai-cart fs-xl me-2
+                        ms-n1"></i>Subscribe</a></div>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="subscribeModalLabel">Subscription</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleInputName1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">You'll recieve newsletter on this email</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

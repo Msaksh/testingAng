@@ -1,0 +1,71 @@
+.fund-style {
+    color: var(--pocket-money);
+}
+
+.edu-pera {
+    font-weight: bold;
+}
+
+.share {
+    background-color: var(--share);
+    color: white;
+    border: none;
+    /* height: 35px; */
+    width: 70px;
+    border-radius: 32px;
+}
+
+.input-box {
+    border: 3px solid #333333;
+    border-radius: 5px;
+    color: white;
+    background-color: #262626;
+    padding: 6px
+}
+
+.right-share {
+    /* margin-top: 10px; */
+    background-color: #0D0D0D;
+    border: 3px solid #333333;
+    border-radius: 15px;
+    color: white;
+}
+
+.child {
+    color: white;
+}
+
+.demand-earn {
+    color: var(--pocket-money);
+}
+
+.wallet {
+    background-color: rgb(89 89 89);
+    color: white;
+    border-radius: 15px;
+}
+
+.pocket-btn {
+    background-color: var(--pocket-money);
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+}
+
+.gift {
+    height: 100%;
+    width: 100px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.minHeight75 {
+    min-height: 75vh;
+}
+
+@media (max-width: 768px) {
+    .minHeight75 {
+        min-height: 50vh;
+    }
+}

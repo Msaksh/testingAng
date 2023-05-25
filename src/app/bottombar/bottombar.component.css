@@ -1,0 +1,17 @@
+.iconsSize {
+    color: white;
+    background: white;
+    width: 25px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.cstmLineHeight {
+    line-height: 15px;
+}
+
+.abs {
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+}
